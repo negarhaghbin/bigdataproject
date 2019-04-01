@@ -1,38 +1,52 @@
-from pyspark.sql import SparkSession
-from pyspark.rdd import RDD
-from pyspark.sql import DataFrame
-from pyspark.mllib.tree import DecisionTree, DecisionTreeModel
-from pyspark.mllib.util import MLUtils
+from sklearn.tree import DecisionTreeClassifier
+from include.LeaveOneOutCV import LeaveOneOutCV
+from include.KFoldCV import KFoldCV
 
-#Initialize a spark session.
-def init_spark():
-    spark = SparkSession \
-        .builder \
-        .appName("Python Spark SQL basic example") \
-        .config("spark.some.config.option", "some-value") \
-        .getOrCreate()
-    return spark
+datafiles=[]
+for i in range(1,18):
+    datafiles.append("../data/subject"+str(i)+"_ideal.log")
 
-spark=init_spark()
-sc=spark.sparkContext
-# Load and parse the data file into an RDD of LabeledPoint.
-data = MLUtils.loadLibSVMFile(sc, '../data/a1a.txt')
-# Split the data into training and test sets (30% held out for testing)
-(trainingData, testData) = data.randomSplit([0.7, 0.3])
+clf = DecisionTreeClassifier(random_state=0)
+LeaveOneOutCV(datafiles,clf)
+KFoldCV(datafiles,clf)
 
-# Train a DecisionTree model.
-#  Empty categoricalFeaturesInfo indicates all features are continuous.
-model = DecisionTree.trainClassifier(trainingData, numClasses=2, categoricalFeaturesInfo={}, impurity='gini', maxDepth=5, maxBins=32)
+#train, test=loo.split(data)
+#cross_validate(clf, rddFeatures, rddLabels, cv=10)
+#print(loo.split(data))
+# dataset = init_spark().createDataFrame(
+#      [(Vectors.dense([0.0]), 0.0),
+#       (Vectors.dense([0.4]), 1.0),
+#       (Vectors.dense([0.5]), 0.0),
+#       (Vectors.dense([0.6]), 1.0),
+#       (Vectors.dense([1.0]), 1.0)] * 10,
+#      ["features", "label"])
+# lr = LogisticRegression()
+# grid = ParamGridBuilder().addGrid(lr.maxIter, [0, 1]).build()
+# evaluator = BinaryClassificationEvaluator()
+# cv = CrossValidator(estimator=lr, estimatorParamMaps=grid, evaluator=evaluator,parallelism=2)
+# cvModel = cv.fit(dataset)
+# cvModel.avgMetrics[0]
+# print(evaluator.evaluate(cvModel.transform(dataset)))
 
-# Evaluate model on test instances and compute test error
-predictions = model.predict(testData.map(lambda x: x.features))
-labelsAndPredictions = testData.map(lambda lp: lp.label).zip(predictions)
-testErr = labelsAndPredictions.filter(
-    lambda lp: lp[0] != lp[1]).count() / float(testData.count())
-print('Test Error = ' + str(testErr))
-print('Learned classification tree model:')
-print(model.toDebugString())
 
-# Save and load model
-model.save(sc, "target/tmp/myDecisionTreeClassificationModel")
-sameModel = DecisionTreeModel.load(sc, "target/tmp/myDecisionTreeClassificationModel")
+# # Load and parse the data file into an RDD of LabeledPoint.
+# data = MLUtils.loadLibSVMFile(sc, '../data/heart.txt')
+# # Split the data into training and test sets (30% held out for testing)
+# (trainingData, testData) = data.randomSplit([0.7, 0.3])
+#
+# # Train a DecisionTree model.
+# #  Empty categoricalFeaturesInfo indicates all features are continuous.
+# model = DecisionTree.trainClassifier(trainingData,2, {})
+#
+# # Evaluate model on test instances and compute test error
+# predictions = model.predict(testData.map(lambda x: x.features))
+# labelsAndPredictions = testData.map(lambda lp: lp.label).zip(predictions)
+# testErr = labelsAndPredictions.filter(
+#     lambda lp: lp[0] != lp[1]).count() / float(testData.count())
+# print('Test Error = ' + str(testErr))
+# print('Learned classification tree model:')
+# print(model.toDebugString())
+#
+# # Save and load model
+# model.save(sc, "target/tmp/myDecisionTreeClassificationModel")
+# sameModel = DecisionTreeModel.load(sc, "target/tmp/myDecisionTreeClassificationModel")
