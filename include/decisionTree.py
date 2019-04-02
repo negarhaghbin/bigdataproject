@@ -8,7 +8,13 @@ for i in range(1,18):
 
 clf = DecisionTreeClassifier(random_state=0)
 LeaveOneOutCV(datafiles,clf)
-KFoldCV(datafiles,clf)
+#KFoldCV(datafiles,clf)
+
+
+
+
+
+
 
 #train, test=loo.split(data)
 #cross_validate(clf, rddFeatures, rddLabels, cv=10)
