@@ -1,28 +1,38 @@
-# doesnt work########
 import numpy as np
-from sklearn.model_selection import LeaveOneOut as loo
-from include.dataPrepration import data_preparation
+from sklearn.model_selection import LeaveOneOut, cross_val_score, KFold
+from include.dataPrepration import data_preparation,data_preparation2
 
 
 def LeaveOneOutCV(datafiles, alg):
-    square_error_sum: float = 0.0
-    scoresList = []
-    X, y = data_preparation(datafiles)
-    scores= []
-    #print(loo.get_n_splits(X, y))
-    #print(loo.split(X,y))
-    for train_index, test_index in loo.split(X.reshape(-1,1), y.reshape(-1,1)):
-        X_train, X_test = X[train_index], X[test_index]
-        y_train, y_test = y[train_index], y[test_index]
-        model = alg.fit(X_train, y_train.ravel())
-        predicted_y = model.predict(X_test)
-        square_error_sum += float(y_test[0] - predicted_y) ** 2
-        scores.append(model.score(X_test, y_test))
-    mse = square_error_sum / X.shape[0]
-    scoresList.append(np.array(scores).mean())
-    print('-----------------------')
-    print('Leave One Out?mse ', mse)
-    print('-----------------------')
+    scorList=[]
+    loo = LeaveOneOut()
+    for i in np.arange(0.25, 7.25, 0.25):
+        # X,y= data_preparation(datafiles,i)
+        X, y = data_preparation2(datafiles, i)
+        n=X.shape[0]
 
-    avg = sum(scoresList) / len(scoresList)
-    print(avg)
+        print("########")
+        print(X.shape)
+        print("########")
+        print(y.shape)
+
+        y = y.reshape(-1, 1)
+
+        print("########")
+        print(X.shape)
+        print("########")
+        print(y.shape)
+
+
+        loo.get_n_splits(X)
+        crossvalidation = KFold(n_splits=n, random_state=None, shuffle=False)
+        score = cross_val_score(alg, X, y, scoring="f1_micro", cv=crossvalidation , n_jobs=1)
+        scorList.append((score.mean(),i))
+    print(scorList)
+
+
+
+
+
+
+
