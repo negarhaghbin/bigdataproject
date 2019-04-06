@@ -53,7 +53,7 @@ def data_preparation(filenames, window_size):
         data_count = int(window_size / timestamp)
         rdd = sc.textFile(filename) \
                 .map(lambda row: row.split())
-        X_temp = rdd.map(lambda x: ([float(x[2]), float(x[3]), float(x[4])
+        X_temp = rdd.map(lambda x: ((float(x[2]), float(x[3])), ([float(x[4])
                                     , float(x[15]), float(x[16]), float(x[17])
                                     , float(x[28]), float(x[29]), float(x[30])
                                     , float(x[41]), float(x[42]), float(x[43])
@@ -62,8 +62,8 @@ def data_preparation(filenames, window_size):
                                     , float(x[80]), float(x[81]), float(x[82])
                                     , float(x[93]), float(x[94]), float(x[95])
                                     , float(x[106]), float(x[107]), float(x[108])],
-                                        [int(x[119])])).zipWithIndex()
-        X_temp = X_temp.map(lambda x: (int(x[1] / data_count), x[0])) \
+                                        [int(x[119])]))).zipWithIndex()
+        X_temp = X_temp.map(lambda x: (int(x[1] / data_count), x[0][1])) \
                 .map(lambda x: (x[0], (x[1], 1)))\
                 .reduceByKey(lambda x, y: addList(x, y)) \
                 .map(lambda x: mean(x[1]))
@@ -82,13 +82,13 @@ def data_preparation2(filenames, window_size):
     sc = init_spark().sparkContext
     X=sc.parallelize([])
     rdd = sc.parallelize([])
+    data_count = int(window_size / timestamp)
     for filename in filenames:
-        data_count = int(window_size / timestamp)
         rdd_temp = sc.textFile(filename) \
                 .map(lambda row: row.split())
         rdd=rdd.union(rdd_temp)
 
-    X_temp = rdd.map(lambda x: ([float(x[2]), float(x[3]), float(x[4])
+    X_temp = rdd.map(lambda x: ((float(x[2]), float(x[3])), ([float(x[4])
                                     , float(x[15]), float(x[16]), float(x[17])
                                     , float(x[28]), float(x[29]), float(x[30])
                                     , float(x[41]), float(x[42]), float(x[43])
@@ -97,8 +97,8 @@ def data_preparation2(filenames, window_size):
                                     , float(x[80]), float(x[81]), float(x[82])
                                     , float(x[93]), float(x[94]), float(x[95])
                                     , float(x[106]), float(x[107]), float(x[108])],
-                                        [int(x[119])])).zipWithIndex()
-    X_temp = X_temp.map(lambda x: (int(x[1] / data_count), x[0])) \
+                                        [int(x[119])]))).sortByKey().zipWithIndex()
+    X_temp = X_temp.map(lambda x: (int(x[1] / data_count), x[0][1])) \
                 .map(lambda x: (x[0], (x[1], 1)))\
                 .reduceByKey(lambda x, y: addList(x, y)) \
                 .map(lambda x: mean(x[1]))
