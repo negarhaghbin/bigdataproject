@@ -1,5 +1,8 @@
 from pyspark.sql import SparkSession
 import numpy as np
+from collections import Counter
+
+timestamp = 0.02
 
 
 # Initialize a spark session.
@@ -12,23 +15,62 @@ def init_spark():
     return spark
 
 
-def data_preparation(filename):
+def addList(x, y):
+    result = []
+    label = []
+    for i in range(0, len(x[0][0])):
+        result.append(x[0][0][i] + y[0][0][i])
+    count = x[1] + y[1]
+    for i in range(0, len(x[0][1])):
+        label.append(x[0][1][i])
+    for i in range(0, len(y[0][1])):
+        label.append(y[0][1][i])
+
+    returnVal = ((result, label), count)
+    return returnVal
+
+
+def mean(x):
+    result = []
+
+    label = Counter(x[0][1]).most_common(1)[0][0]
+    for i in range(0, len(x[0][0])):
+        result.append(x[0][0][i] / x[1])
+
+    returnVal = (result, label)
+    return returnVal
+
+
+# (window_size,list of(list of(windows)))
+def data_preparation(filenames):
     """
     in this function we first remove the data which doesnt have label and then only select timestamp, 9 sensors
     acceleration and label columns.
     """
     sc = init_spark().sparkContext
-    rdd = sc.textFile(filename) \
-        .map(lambda row: row.split()) \
-        .filter(lambda x: x[119] != '0')
-    X = rdd.map(lambda x: [x[0], x[1], x[2], x[3], x[4]
-        , x[15], x[16], x[17]
-        , x[28], x[29], x[30]
-        , x[41], x[42], x[43]
-        , x[54], x[55], x[56]
-        , x[67], x[68], x[69]
-        , x[80], x[81], x[82]
-        , x[93], x[94], x[95]
-        , x[106], x[107], x[108]])
-    y = rdd.map(lambda x: x[119])
+    X=sc.parallelize([])
+    for filename in filenames:
+        for i in np.arange(0.25, 7, 0.25):
+            data_count = int(i / timestamp)
+            rdd = sc.textFile(filename) \
+                .map(lambda row: row.split())
+            X_temp = rdd.map(lambda x: ([float(x[2]), float(x[3]), float(x[4])
+                                            , float(x[15]), float(x[16]), float(x[17])
+                                            , float(x[28]), float(x[29]), float(x[30])
+                                            , float(x[41]), float(x[42]), float(x[43])
+                                            , float(x[54]), float(x[55]), float(x[56])
+                                            , float(x[67]), float(x[68]), float(x[69])
+                                            , float(x[80]), float(x[81]), float(x[82])
+                                            , float(x[93]), float(x[94]), float(x[95])
+                                            , float(x[106]), float(x[107]), float(x[108])],
+                                        [int(x[119])])).zipWithIndex()
+            X_temp = X_temp.map(lambda x: (int(x[1] / data_count), x[0])) \
+                .map(lambda x: (x[0], (x[1], 1)))\
+                .reduceByKey(lambda x, y: addList(x, y)) \
+                .map(lambda x: mean(x[1]))
+
+        X=X.union(X_temp)
+
+    y = X.map(lambda x: x[1])
+    X = X.map(lambda x: x[0])
     return np.array(X.collect()).astype(np.float64), np.array(y.collect()).astype(np.float64)

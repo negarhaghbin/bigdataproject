@@ -3,13 +3,12 @@ from include.LeaveOneOutCV import LeaveOneOutCV
 from include.KFoldCV import KFoldCV
 
 datafiles=[]
-for i in range(1,18):
+for i in range(1,3):
     datafiles.append("../data/subject"+str(i)+"_ideal.log")
 
 clf = DecisionTreeClassifier(random_state=0)
-LeaveOneOutCV(datafiles,clf)
-#KFoldCV(datafiles,clf)
-
+#LeaveOneOutCV(datafiles,clf)
+KFoldCV(datafiles,clf)
 
 
 
