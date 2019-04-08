@@ -2,890 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90f38928-295a-4268-9b33-a085c21d4fa9" name="Default" comment="trying to fix LOO, KNN added">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/SubjectCV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Implementation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Implementation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/LeaveOneOutCV.py" beforeDir="false" afterPath="$PROJECT_DIR$/include/LeaveOneOutCV.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/dataPrepration.py" beforeDir="false" afterPath="$PROJECT_DIR$/include/dataPrepration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Assets/BallController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Assets/BallController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Assets/Resources/ball.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Assets/Resources/ball.physicMaterial" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Assets/Scenes/A.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Assets/Scenes/A.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Assets/Scenes/Arkanoid.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Assets/Scenes/Arkanoid.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Assets/changeMaterial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Assets/changeMaterial.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/CrashedAssetImports.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/CurrentLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/EditorInstance.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/LastBuild.buildreport" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/LastBuild.buildreport" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/LastSceneManagerSetup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/Managed/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/Managed/Unity.Analytics.DataPrivacy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/Managed/Unity.Analytics.DataPrivacy.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/Managed/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/Managed/Unity.TextMeshPro.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/Managed/VuforiaScripts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/Managed/VuforiaScripts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/globalgamemanagers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/globalgamemanagers.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/globalgamemanagers.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/level0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/level1" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/level1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/level2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/level2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/level3" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/level3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/level4" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/level4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/level5" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/level5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/level6" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/level6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/level7" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/level7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/resources.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/Data/resources.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/ScriptLayoutHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/PlayerDataCache/iOS/ScriptLayoutHashes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ScriptAssemblies/VuforiaEditorScripts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ScriptAssemblies/VuforiaEditorScripts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ScriptAssemblies/VuforiaScripts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/ScriptAssemblies/VuforiaScripts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/StateCache/Hierarchy/f8bfcd-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/StateCache/Hierarchy/f8bfcd-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/StateCache/SceneView/c04248-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/StateCache/SceneView/c04248-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/metadata/64/642c17e302bf04c419c9cc9174f2794d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/metadata/64/642c17e302bf04c419c9cc9174f2794d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/metadata/9f/9f9c808d27bf24191959aeb79cf9b234" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/metadata/9f/9f9c808d27bf24191959aeb79cf9b234" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/shadercompiler-UnityShaderCompiler1.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/shadercompiler-UnityShaderCompiler1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/shadercompiler-UnityShaderCompiler2.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/shadercompiler-UnityShaderCompiler2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/shadercompiler-UnityShaderCompiler3.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Library/shadercompiler-UnityShaderCompiler3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/ProcessJobs/1f068db059d5cf0261a3b566803bc6c6.bakert" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/ProcessJobs/31fa54677c589ed97e1a66b29c10bd17.bakert" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/ProcessJobs/925047e2c5ae7baae766ed8191cf62d7.bakert" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/Managed/Resources/mscorlib.dll-resources.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/Managed/mono/2.0/machine.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/Managed/mono/4.0/machine.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/Raw/Vuforia/VuforiaMars_Images.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/Raw/Vuforia/VuforiaMars_Images.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/Raw/Vuforia/test.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/Raw/Vuforia/test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/Resources/unity_builtin_extra" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/boot.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/globalgamemanagers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/globalgamemanagers.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/level0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/level0.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/level1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/level1.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/level2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/level2.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/level3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/level3.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/level4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/level4.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/level5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/level5.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/level6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/level6.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/level7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/level7.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/resources.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/resources.assets.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/sharedassets0.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/sharedassets0.assets.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/sharedassets1.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/sharedassets1.assets.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/sharedassets2.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/sharedassets3.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/sharedassets4.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/sharedassets5.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/sharedassets6.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/sharedassets7.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Data/unity default resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/CrashReporter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/CrashReporter.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/DynamicLibEngineAPI-functions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/DynamicLibEngineAPI.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/PLCrashReporter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/PluginBase/AppDelegateListener.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/PluginBase/AppDelegateListener.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/PluginBase/LifeCycleListener.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/PluginBase/LifeCycleListener.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/PluginBase/RenderPluginDelegate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/PluginBase/RenderPluginDelegate.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/PluginBase/UnityViewControllerListener.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/PluginBase/UnityViewControllerListener.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Preprocessor.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Quaternion4.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/ActivityIndicator.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/ActivityIndicator.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/Keyboard.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/Keyboard.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/OrientationSupport.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/OrientationSupport.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/SplashScreen.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/SplashScreen.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/StoreReview.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/UnityAppController+ViewHandling.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/UnityAppController+ViewHandling.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/UnityView+Keyboard.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/UnityView+iOS.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/UnityView+iOS.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/UnityView+tvOS.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/UnityView+tvOS.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/UnityView.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/UnityView.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/UnityViewControllerBase+iOS.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/UnityViewControllerBase+iOS.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/UnityViewControllerBase+tvOS.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/UnityViewControllerBase+tvOS.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/UnityViewControllerBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UI/UnityViewControllerBase.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/AVCapture.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/AVCapture.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/CMVideoSampling.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/CMVideoSampling.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/CVTextureCache.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/CVTextureCache.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/CameraCapture.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/CameraCapture.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/DeviceSettings.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/DisplayManager.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/DisplayManager.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/EAGLContextHelper.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/EAGLContextHelper.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/Filesystem.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/FullScreenVideoPlayer.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/GlesHelper.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/GlesHelper.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/IUnityGraphics.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/IUnityGraphicsMetal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/IUnityInterface.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/InternalProfiler.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/InternalProfiler.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/MetalHelper.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/ObjCRuntime.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/OnDemandResources.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/UnityForwardDecls.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/UnityInterface.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/UnityMetalSupport.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/UnityRendering.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/UnityReplayKit.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/UnityReplayKit.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/UnityReplayKit_Scripting.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/UnitySharedDecls.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/UnityTrampolineCompatibility.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/VideoPlayer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/VideoPlayer.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/WWWConnection.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Unity/WWWConnection.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UnityAds/UnityAdsConfig.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UnityAds/UnityAdsUnityWrapper.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UnityAppController+Rendering.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UnityAppController+Rendering.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UnityAppController+UnityInterface.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UnityAppController+UnityInterface.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UnityAppController.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UnityAppController.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/UnityTrampolineConfigure.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/Vector3.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/iPhone_Sensors.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/iPhone_Sensors.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Classes/main.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/Managed/Metadata/global-metadata.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/Managed/Resources/mscorlib.dll-resources.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/Managed/mono/2.0/machine.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/Managed/mono/4.0/machine.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/Raw/Vuforia/VuforiaMars_Images.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/Raw/Vuforia/VuforiaMars_Images.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/Raw/Vuforia/test.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/Raw/Vuforia/test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/Resources/unity_builtin_extra" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/boot.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/globalgamemanagers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/globalgamemanagers.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/level0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/level0.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/level1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/level1.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/level2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/level2.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/level3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/level3.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/level4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/level4.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/level5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/level5.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/level6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/level6.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/level7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/level7.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/resources.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/resources.assets.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/sharedassets0.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/sharedassets0.assets.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/sharedassets1.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/sharedassets1.assets.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/sharedassets2.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/sharedassets3.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/sharedassets4.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/sharedassets5.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/sharedassets6.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/sharedassets7.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Data/unity default resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/LaunchScreen-iPad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/LaunchScreen-iPad.xib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/LaunchScreen-iPhone.xib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/LaunchScreen-iPhoneLandscape.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/LaunchScreen-iPhonePortrait.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/Il2CppOptions.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/RegisterFeatures.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/RegisterFeatures.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/RegisterMonoModules.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/RegisterMonoModules.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/char-conversions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/codegen/il2cpp-codegen-common.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/codegen/il2cpp-codegen-il2cpp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/codegen/il2cpp-codegen-mono.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/codegen/il2cpp-codegen.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/external/google/sparsehash/dense_hash_map.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/external/google/sparsehash/dense_hash_set.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/external/google/sparsehash/densehashtable.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/external/google/sparsehash/type_traits.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/external/xamarin-android/logger.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/external/xamarin-android/monodroid.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/external/xamarin-android/xamarin_getifaddrs.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/external/zlib/crc32.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/external/zlib/deflate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/external/zlib/gzguts.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/external/zlib/inffast.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/external/zlib/inffixed.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/external/zlib/inflate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/external/zlib/inftrees.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/external/zlib/trees.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/external/zlib/zconf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/external/zlib/zlib.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/external/zlib/zutil.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/externals/MonoPosixHelper.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/gc/Allocator.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/gc/AppendOnlyGCHashMap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/gc/GCHandle.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/gc/GarbageCollector.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/gc/WriteBarrier.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/gc/gc_wrapper.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icallincludes.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System.Configuration/System.Configuration/InternalConfigurationHost.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System.Core/System.IO.MemoryMappedFiles/MemoryMapImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/Microsoft.Win32/NativeMethods.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/Mono.Net.Security/MonoTlsProviderFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.ComponentModel/Win32Exception.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.Configuration/DefaultConfig.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.Configuration/InternalConfigurationHost.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.Diagnostics/DefaultTraceListener.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.Diagnostics/FileVersionInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.Diagnostics/PerformanceCounter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.Diagnostics/PerformanceCounterCategory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.Diagnostics/PerformanceCounterUtils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.Diagnostics/Process.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.Diagnostics/Stopwatch.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.Diagnostics/perfcounters-def.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.IO/FAMWatcher.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.IO/FileSystemWatcher.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.IO/InotifyWatcher.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.IO/KqueueMonitor.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.Net.NetworkInformation/LinuxNetworkInterface.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.Net.NetworkInformation/MacOsIPInterfaceProperties.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.Net.Sockets/Socket.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.Net.Sockets/SocketException.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.Net/Dns.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System.Threading/Semaphore.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/System/System/IOSelector.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/Mono.Globalization.Unicode/Normalization.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/Mono.Interop/ComInteropProxy.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/Mono.Security.Cryptography/KeyPairPersistence.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/Mono.Unity/UnityTls.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/Mono/Runtime.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/Mono/RuntimeClassHandle.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/Mono/RuntimeGPtrArrayHandle.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/Mono/RuntimeMarshal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/Mono/SafeStringMarshal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Diagnostics/Assert.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Diagnostics/Debugger.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Diagnostics/StackFrame.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Diagnostics/StackTrace.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/CalendarData.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/CompareInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/CompareOptions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/CultureData.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/CultureInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/CultureInfoInternals.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/CultureInfoTables.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/Generated/CultureInfoInternalsNet_4_0.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/Generated/CultureInfoTablesNet_4_0.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/RegionInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.IO/DriveInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.IO/MonoIO.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.IO/Path.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/AssemblyBuilder.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/CustomAttributeBuilder.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/DerivedType.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/DynamicMethod.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/EnumBuilder.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/GenericTypeParameterBuilder.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/MethodBuilder.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/ModuleBuilder.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/SignatureHelper.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/SymbolType.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/TypeBuilder.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/Assembly.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/AssemblyName.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/CustomAttributeData.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/EventInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/FieldInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MemberInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MethodBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/Module.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MonoCMethod.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MonoEventInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MonoField.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MonoGenericCMethod.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MonoGenericClass.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MonoGenericMethod.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MonoMethod.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MonoMethodInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MonoPropertyInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/ParameterInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/PropertyInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/RtFieldInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.CompilerServices/RuntimeHelpers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.InteropServices.WindowsRuntime/UnsafeNativeMethods.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.InteropServices/GCHandle.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.InteropServices/Marshal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.Remoting.Activation/ActivationServices.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.Remoting.Contexts/Context.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.Remoting.Messaging/AsyncResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.Remoting.Messaging/MonoMethodMessage.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.Remoting.Proxies/RealProxy.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.Remoting/RemotingServices.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.Versioning/VersioningHelper.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Security.Cryptography/RNGCryptoServiceProvider.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Security.Policy/Evidence.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Security.Principal/WindowsIdentity.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Security.Principal/WindowsImpersonationContext.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Security.Principal/WindowsPrincipal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Security/SecurityFrame.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Security/SecurityManager.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Text/Encoding.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Text/EncodingHelper.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Text/Normalization.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Threading/Interlocked.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Threading/InternalThread.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Threading/Monitor.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Threading/Mutex.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Threading/NativeEventCalls.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Threading/Thread.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Threading/ThreadPool.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Threading/Timer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System.Threading/WaitHandle.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/Activator.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/AppDomain.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/ArgIterator.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/Array.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/Buffer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/CLRConfig.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/Char.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/ConsoleDriver.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/Convert.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/CurrentSystemTimeZone.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/DateTime.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/Decimal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/Delegate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/Double.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/Enum.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/Environment.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/Exception.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/GC.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/Math.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/MissingMemberException.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/MonoCustomAttrs.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/MonoEnumInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/MonoType.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/Number.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/NumberFormatter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/Object.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/RuntimeFieldHandle.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/RuntimeMethodHandle.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/RuntimeType.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/RuntimeTypeHandle.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/SizedReference.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/String.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/TimeSpan.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/TimeZoneInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/Type.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/TypedReference.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/ValueType.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/icalls/mscorlib/System/__ComObject.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/il2cpp-api-functions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/il2cpp-api-types.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/il2cpp-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/il2cpp-blob.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/il2cpp-class-internals.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/il2cpp-config-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/il2cpp-config.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/il2cpp-metadata.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/il2cpp-normalization-tables.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/il2cpp-number-formatter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/il2cpp-object-internals.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/il2cpp-runtime-metadata.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/il2cpp-string-types.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/il2cpp-tabledefs.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/il2cpp-vm-support.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/libil2cpp.def" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/libil2cpp.icalls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/metadata/ArrayMetadata.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/metadata/FieldLayout.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/metadata/GenericMetadata.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/metadata/GenericMethod.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/metadata/GenericSharing.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/metadata/Il2CppGenericClassCompare.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/metadata/Il2CppGenericClassHash.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/metadata/Il2CppGenericContextCompare.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/metadata/Il2CppGenericContextHash.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/metadata/Il2CppGenericInstCompare.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/metadata/Il2CppGenericInstHash.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/metadata/Il2CppGenericMethodCompare.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/metadata/Il2CppGenericMethodHash.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/metadata/Il2CppSignatureCompare.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/metadata/Il2CppSignatureHash.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/metadata/Il2CppTypeCompare.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/metadata/Il2CppTypeHash.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/metadata/Il2CppTypeVector.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/mono-runtime/il2cpp-callbacks.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/mono-runtime/il2cpp-mapping.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/mono-runtime/il2cpp-mono-support.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/mono-structs.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/mono/ThreadPool/ThreadPoolDataStructures.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/mono/ThreadPool/ThreadPoolMacros.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/mono/ThreadPool/ThreadPoolMonitorThread.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/mono/ThreadPool/ThreadPoolWorkerThread.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/mono/ThreadPool/threadpool-ms-io-poll.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/mono/ThreadPool/threadpool-ms-io.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/mono/ThreadPool/threadpool-ms.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Atomic.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/COM.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/ConditionVariable.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Console.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/CpuInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Cryptography.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Debug.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Directory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Encoding.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Environment.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Error.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/ErrorCodes.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Event.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/File.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/FileSystemWatcher.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Generic/SocketImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Handle.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Image.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Initialize.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/LastError.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/LibraryLoader.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Locale.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/MarshalAlloc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/MarshalStringAlloc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Memory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/MemoryMappedFile.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Messages.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Mutex.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/NativeMethods.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Path.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Posix/AtomicImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Posix/ConditionVariableImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Posix/Error.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Posix/EventImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Posix/FileHandle.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Posix/MutexImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Posix/PosixHelpers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Posix/PosixWaitObject.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Posix/ReaderWriterLockImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Posix/SemaphoreImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Posix/SocketImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Posix/ThreadImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Posix/ThreadLocalValueImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Process.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/ReaderWriterLock.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/ReaderWriterLockImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Semaphore.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Socket.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/StackTrace.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Std/ThreadImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/SystemCertificates.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Thread.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/ThreadLocalValue.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Time.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/TimeZone.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/TimeZoneInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Unity/AtomicNode.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Unity/AtomicQueue.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Unity/ExtendedAtomicOps-arm.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Unity/ExtendedAtomicOps-arm64.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Unity/ExtendedAtomicOps-clang-gcc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Unity/ExtendedAtomicOps-x86-64.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Unity/ExtendedAtomicOps-x86.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Unity/ExtendedAtomicOps.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Unity/ExtendedAtomicTypes.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Unity/UnityPlatformConfigure.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/WaitStatus.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Win32/AtomicImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Win32/ConditionVariableImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Win32/DllMain.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Win32/EventImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Win32/MutexImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Win32/ReaderWriterLockImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Win32/SemaphoreImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Win32/SocketImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Win32/ThreadImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Win32/ThreadLocalValueImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Win32/WindowsHeaders.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/Win32/WindowsHelpers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/WinRT/SynchronousOperation.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/WinRT/Win32ApiSharedEmulation.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/WinRT/Win32ApiWinRTEmulation.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/WindowsRuntime.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Allocator.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Atomic-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/COM-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/ConditionVariable-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Console-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/CpuInfo-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Cryptography-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Debug-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Directory-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Environment-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Error-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Event-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/File-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Handle-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/LibraryLoader-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Locale-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Memory-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/MemoryMappedFile-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Messages-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Mutex-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/NativeMethods-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/OSGlobalEnums.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Path-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Posix/AtomicImpl-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Process-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Semaphore-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Socket-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/SystemCertificates-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Thread-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/ThreadLocalValue-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Time-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/TimeZone-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/TimeZoneInfo-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/WaitStatus-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Win32/AtomicImpl-c-api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/Win32/WindowsHeaders.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/il2cpp-config-api-platforms.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/il2cpp-config-platforms.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/os/c-api/tests/PathHelper.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/CallOnce.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/Collections.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/DirectoryUtils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/Environment.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/Exception.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/Functional.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/HashUtils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/Il2CppHStringReference.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/Il2CppHashMap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/Il2CppHashSet.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/KeyWrapper.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/Logging.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/MarshalingUtils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/MathUtils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/Memory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/MemoryMappedFile.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/MemoryPool.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/MemoryRead.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/NonCopyable.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/Output.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/PathUtils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/RegisterRuntimeInitializeAndCleanup.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/Runtime.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/StringUtils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/StringView.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/TemplateUtils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/ThreadSafeFreeList.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/dynamic_array.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/utf8-cpp/source/utf8.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/utf8-cpp/source/utf8/checked.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/utf8-cpp/source/utf8/core.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/utils/utf8-cpp/source/utf8/unchecked.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm-utils/BlobReader.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm-utils/Debugger.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm-utils/NativeDelegateMethodCache.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm-utils/NativeSymbol.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm-utils/VmStringUtils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Array.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Assembly.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/AssemblyName.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Atomic.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/CCW.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/COM.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/CachedCCWBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Class.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/ComObjectBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Domain.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Enum.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Event.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Exception.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Field.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/GenericClass.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/GenericContainer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Image.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/InternalCalls.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/LastError.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/LibraryLoader.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Liveness.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/MarshalAlloc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/MemoryInformation.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/MetadataAlloc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/MetadataCache.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/MetadataLoader.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/MetadataLock.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Method.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Module.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Monitor.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/NonCachedCCWBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Object.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Parameter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Path.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/PlatformInvoke.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Profiler.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Property.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/RCW.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Random.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Reflection.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Runtime.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/ScopedThreadAttacher.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/StackTrace.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/String.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Thread.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/ThreadPool.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/ThreadPoolMs.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/Type.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/WaitHandle.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/WeakReference.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Libraries/libil2cpp/include/vm/WindowsRuntime.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/MapFileParser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/MapFileParser.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Unity-iPhone Tests/Unity-iPhone Tests-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Unity-iPhone Tests/Unity-iPhone Tests-Prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Unity-iPhone Tests/Unity_iPhone_Tests.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Unity-iPhone Tests/en.lproj/InfoPlist.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Unity-iPhone.xcodeproj/project.pbxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Unity-iPhone.xcodeproj/xcshareddata/xcschemes/Unity-iPhone.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Unity-iPhone/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Unity-iPhone/Images.xcassets/AppIcon.appiconset/Icon-iPhone-120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/Unity-iPhone/Images.xcassets/LaunchImage.launchimage/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/lzma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/process_symbols.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/StagingArea/Trampoline/usymtool" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityLockfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-080beee65d17a4cde8fef6c677689c55" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-1ae899e6620a34f6fb49b3ac5ae15c56" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-212ae632d7321419a8f26dbcba632c22" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-229c70ed983ec4e279b4ec8ca81115ca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-27e84a857bf5e452093555bedd073aa1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-2aa8963e171024b33b84f91391927d70" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-2d196550c13e447fd8a0d4cc5a79dfb9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-2ffb4acc9ae2d4abcb6acf86c330ace4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-3759bb9ce6444471bb017b898011da37" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-3b60f098239d0498dbd42404bbdea049" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-3c0f38bd1018742cc9f53e98ef86d288" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-3ef73377f8b534c3db0ad09690c6f0df" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-3f408093c9a6741368e93d6ef64b85e3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-45b26548b7e444b919ebc78a5c28443e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-47cb806a9cbd748948bf8b038496654c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-587e1f6f4d4744754afbd6ec474d1cd1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-58d071a29132344549f64b3ebbaad092" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-5cc986c8be3fd4799a271e9bb03c8cbe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-669d3a347c28746019a9af8cc1018afe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-7d486cb223cfc455a9b91072b114298b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-7fbdb821418f2486a9703f4cbded068c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-83f7e1e9d760f4f4597e13405938aa8d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-8923fc6a6792d4d1aa552a170125b16c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-8d88724db0d0644e5b7f461e777b9ce1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-9627d890e7fef4435bee601a6aeabb92" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-9bbf61dc78cd64f4081cb94d76a202ae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-a5228d22537a74ce8a9ab60ba9078997" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-a8aeccc2b587c4822b3c0469d4431664" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-aa4815121c86f465aa3c14c06bfea84e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-ab24117e5ca804c8eb7cbe56b7ba62aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-b109dad2830e3458c8042d8c917e83a4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-b845a00f5c89845978d64b0fd31d6594" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-b8fb7515c6fcb4a5c9828af19b97e74d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-ba4bd83426c144c06a1478b8f8f33670" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-c4bf0ec5a00f748e7bad2bed147e1913" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-c60ba847d39b940799304d9b353a4a3f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-ceda72b8ed3be443b9ce36eae4c5bc87" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-d132269cdf64b4ac09d34b0953a3ac9d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-d7665495b5ad74d1a81c3c6c5f6efb81" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-de281c72ea1984fec828411f2d397bec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-e1edefbc393894c81bf2ebd93eee48d5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-e368352d68f024ca5a62c37223f684dc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-e72699367f95c48059afd7ed951f13b9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-f27404a191be44a899fa0b4b4509c24f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-f3f7c483ffc2f4acdb10a322a6b599f9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/UnityTempFile-f72784e431d0242dba35b8daa46fafe6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/__Backupscenes/0.backup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Assembly-CSharp_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Generics_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Generics_1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Generics_10.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Generics_11.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Generics_12.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Generics_2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Generics_3.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Generics_4.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Generics_5.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Generics_6.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Generics_7.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Generics_8.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Generics_9.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Mono.Security_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_System.Configuration_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_System.Core_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_System.Diagnostics.StackTrace_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_System.Globalization.Extensions_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_System.Xml_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_System_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_System_1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_System_2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.AnimationModule_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.AudioModule_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.CoreModule_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.CoreModule_1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.GameCenterModule_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.IMGUIModule_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.InputModule_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.Physics2DModule_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.PhysicsModule_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.SharedInternalsModule_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.TextRenderingModule_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.UIModule_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.UI_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.UI_1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.UI_2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.UI_3.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.UnityAnalyticsModule_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.UnityWebRequestModule_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.VRModule_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine.XRModule_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_UnityEngine_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Vuforia.UnityExtensions_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Vuforia.UnityExtensions_1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Vuforia.UnityExtensions_2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Vuforia.UnityExtensions_3.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_Vuforia.UnityExtensions_4.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_VuforiaScripts_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_mscorlib_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_mscorlib_1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_mscorlib_10.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_mscorlib_11.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_mscorlib_12.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_mscorlib_13.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_mscorlib_14.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_mscorlib_15.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_mscorlib_16.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_mscorlib_17.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_mscorlib_18.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_mscorlib_2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_mscorlib_3.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_mscorlib_4.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_mscorlib_5.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_mscorlib_6.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_mscorlib_7.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_mscorlib_8.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_mscorlib_9.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Bulk_netstandard_0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/Metadata/global-metadata.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/Resources/mscorlib.dll-resources.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/etc/mono/2.0/Browsers/Compat.browser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/etc/mono/2.0/machine.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/etc/mono/2.0/settings.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/etc/mono/2.0/web.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/etc/mono/4.0/Browsers/Compat.browser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/etc/mono/4.0/machine.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/etc/mono/4.0/settings.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/etc/mono/4.0/web.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/etc/mono/4.5/Browsers/Compat.browser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/etc/mono/4.5/machine.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/etc/mono/4.5/settings.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/etc/mono/4.5/web.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/etc/mono/browscap.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/etc/mono/config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/etc/mono/mconfig/config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Data/etc/mono/registry/last-btime" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/GenericMethods0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/GenericMethods1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/GenericMethods2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppAttributes.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCodeRegistration.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValuesTable.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_0Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_10Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_11Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_12Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_13Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_14Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_15Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_16Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_17Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_18Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_19Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_1Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_20Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_21Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_22Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_23Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_24Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_25Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_26Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_27Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_28Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_29Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_2Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_3Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_4Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_5Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_6Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_7Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_8Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppCompilerCalculateTypeValues_9Table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppGenericClassTable.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppGenericComDefinitions0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppGenericInstDefinitions.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppGenericMethodDefinitions.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppGenericMethodPointerTable.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppGenericMethodTable.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppInteropDataTable.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppInvokerTable.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppMetadataRegistration.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppMetadataUsage.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppMethodPointerTable.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/Il2CppTypeDefinitions.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/UnityClassRegistration.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/UnityICallRegistration.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/il2cppOutput/il2cppOutput/UnresolvedVirtualCallStubs.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/tempFile.res" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/tempFile.resG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Multimedia/Project/New Unity Project2/Temp/tempFile.resS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/decisionTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/include/decisionTree.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -895,20 +18,18 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Implementation$decisionTree.coverage" NAME="decisionTree Coverage Results" MODIFIED="1554574492699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/include" />
-    <SUITE FILE_PATH="coverage/Implementation$LeaveOneOutCV.coverage" NAME="LeaveOneOutCV Coverage Results" MODIFIED="1554147329021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/include" />
-    <SUITE FILE_PATH="coverage/Implementation$dataPrepration.coverage" NAME="dataPrepration Coverage Results" MODIFIED="1554524719360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/include" />
     <SUITE FILE_PATH="coverage/Implementation$KNN.coverage" NAME="KNN Coverage Results" MODIFIED="1554141846024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/include" />
+    <SUITE FILE_PATH="coverage/Implementation$LeaveOneOutCV.coverage" NAME="LeaveOneOutCV Coverage Results" MODIFIED="1554147329021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/include" />
+    <SUITE FILE_PATH="coverage/bigdataproject$decisionTree.coverage" NAME="decisionTree Coverage Results" MODIFIED="1554678441699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/include" />
+    <SUITE FILE_PATH="coverage/Implementation$dataPrepration.coverage" NAME="dataPrepration Coverage Results" MODIFIED="1554524719360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/include" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/decisionTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="47" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -916,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/dataPrepration.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-247">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="-31">
+              <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -925,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/LeaveOneOutCV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="165">
+              <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
               <folding>
                 <element signature="e#22#40#0" expanded="true" />
               </folding>
@@ -949,10 +70,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/KFoldCV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="165">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="13" selection-end-column="19" />
               <folding>
-                <element signature="e#0#51#0" expanded="true" />
+                <element signature="e#0#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/include/SubjectCV.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -979,17 +112,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/include/KNN.py" />
-        <option value="$PROJECT_DIR$/include/decisionTree.py" />
-        <option value="$PROJECT_DIR$/include/dataPrepration.py" />
         <option value="$PROJECT_DIR$/include/KFoldCV.py" />
         <option value="$PROJECT_DIR$/include/LeaveOneOutCV.py" />
+        <option value="$PROJECT_DIR$/include/decisionTree.py" />
+        <option value="$PROJECT_DIR$/include/dataPrepration.py" />
+        <option value="$PROJECT_DIR$/include/SubjectCV.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="712" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
+    <option name="width" value="1151" />
+    <option name="height" value="636" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1019,39 +153,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Implementation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Implementation" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdataproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdataproject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Implementation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Implementation" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Implementation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Implementation" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdataproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdataproject" type="462c0819:PsiDirectoryNode" />
               <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Implementation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Implementation" type="462c0819:PsiDirectoryNode" />
-              <item name="share" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Implementation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Implementation" type="462c0819:PsiDirectoryNode" />
-              <item name="share" type="462c0819:PsiDirectoryNode" />
-              <item name="py4j" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1060,8 +178,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../JadehKhaki/env/bin/python3.6" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.selected.package.jscs" value="" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Data" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1209,6 +332,9 @@
       <workItem from="1554087740740" duration="605000" />
       <workItem from="1554139363087" duration="23934000" />
       <workItem from="1554566503327" duration="5680000" />
+      <workItem from="1554575471826" duration="1382000" />
+      <workItem from="1554645691407" duration="67000" />
+      <workItem from="1554675600611" duration="7330000" />
     </task>
     <task id="LOCAL-00001" summary="DecisionTreeClassifier&#10;10foldCV added&#10;LeaveOneOut added but does not work">
       <created>1554067216815</created>
@@ -1249,35 +375,35 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41896000" />
+    <option name="totallyTimeSpent" value="50675000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="712" extended-state="0" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23409091" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49596122" weight="0.33064517" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32736155" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49545455" visible="true" weight="0.42833877" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49757674" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Python Console" order="9" visible="true" weight="0.16129032" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50403875" side_tool="true" weight="0.28082192" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49545455" weight="0.13843648" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50454545" side_tool="true" weight="0.42833877" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="right" x="0" y="0" width="270" height="512" id="Documentation" sideWeight="0.50240386" side_tool="true" weight="0.12116317" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="5" sideWeight="0.49759614" weight="0.32956383" />
+      <window_info anchor="right" x="0" y="0" width="270" height="512" id="Documentation" order="6" sideWeight="0.50240386" side_tool="true" weight="0.12116317" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1343,18 +469,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/data/heart.txt" />
     <entry file="file://$PROJECT_DIR$/data/australian" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
     <entry file="file://$PROJECT_DIR$/data/subject10_ideal.log" />
-    <entry file="file://$PROJECT_DIR$/data/subject1_ideal.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-      <provider editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-18594">
-          <caret column="1024" lean-forward="true" selection-start-column="1024" selection-end-column="1024" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/subject1_ideal.log" />
     <entry file="file://$PROJECT_DIR$/include/KNN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1362,20 +479,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Data/subject1_ideal.log">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/LeaveOneOutCV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <folding>
+            <element signature="e#22#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/decisionTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="47" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/dataPrepration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="-31">
+          <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
@@ -1384,20 +511,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/KFoldCV.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="165">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="13" selection-end-column="19" />
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#0#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/LeaveOneOutCV.py">
+    <entry file="file://$PROJECT_DIR$/include/SubjectCV.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="254">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding>
-            <element signature="e#22#40#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

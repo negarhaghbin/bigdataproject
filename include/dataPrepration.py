@@ -49,11 +49,11 @@ def data_preparation(filenames, window_size):
     """
     sc = init_spark().sparkContext
     X=sc.parallelize([])
-    for filename in filenames:
+    for index,filename in enumerate(filenames):
         data_count = int(window_size / timestamp)
         rdd = sc.textFile(filename) \
                 .map(lambda row: row.split())
-        X_temp = rdd.map(lambda x: ((float(x[2]), float(x[3])), ([float(x[4])
+        X_temp = rdd.map(lambda x: ((float(x[0]), float(x[1])), ([float(x[2]), float(x[3]),float(x[4])
                                     , float(x[15]), float(x[16]), float(x[17])
                                     , float(x[28]), float(x[29]), float(x[30])
                                     , float(x[41]), float(x[42]), float(x[43])
@@ -66,12 +66,12 @@ def data_preparation(filenames, window_size):
         X_temp = X_temp.map(lambda x: (int(x[1] / data_count), x[0][1])) \
                 .map(lambda x: (x[0], (x[1], 1)))\
                 .reduceByKey(lambda x, y: addList(x, y)) \
-                .map(lambda x: mean(x[1]))
+                .map(lambda x: (index,mean(x[1])))
 
         X=X.union(X_temp)
 
-    y = X.map(lambda x: x[1])
-    X = X.map(lambda x: x[0])
+    y = X.map(lambda x: (x[0],x[1][1]))
+    X = X.map(lambda x: (x[0],x[1][0]))
     return np.array(X.collect()).astype(np.float64), np.array(y.collect()).astype(np.float64)
 
 def data_preparation2(filenames, window_size):
@@ -88,7 +88,7 @@ def data_preparation2(filenames, window_size):
                 .map(lambda row: row.split())
         rdd=rdd.union(rdd_temp)
 
-    X_temp = rdd.map(lambda x: ((float(x[2]), float(x[3])), ([float(x[4])
+    X_temp = rdd.map(lambda x: ((float(x[0]), float(x[1])), ([float(x[2]), float(x[3]),float(x[4])
                                     , float(x[15]), float(x[16]), float(x[17])
                                     , float(x[28]), float(x[29]), float(x[30])
                                     , float(x[41]), float(x[42]), float(x[43])
