@@ -44,13 +44,15 @@ def mean(x):
 # (window_size,list of(list of(windows)))
 def data_preparation(filenames, window_size):
     """
-    in this function we first remove the data which doesnt have label and then only select timestamp, 9 sensors
+    in this function we only select timestamp, 9 sensors
     acceleration and label columns.
     """
     sc = init_spark().sparkContext
     X=sc.parallelize([])
+    data_count = int(window_size / timestamp)
+    start=0
+    X_Index = []
     for index,filename in enumerate(filenames):
-        data_count = int(window_size / timestamp)
         rdd = sc.textFile(filename) \
                 .map(lambda row: row.split())
         X_temp = rdd.map(lambda x: ((float(x[0]), float(x[1])), ([float(x[2]), float(x[3]),float(x[4])
@@ -67,12 +69,16 @@ def data_preparation(filenames, window_size):
                 .map(lambda x: (x[0], (x[1], 1)))\
                 .reduceByKey(lambda x, y: addList(x, y)) \
                 .map(lambda x: (index,mean(x[1])))
-
+        end=start+X_temp.count()-1
+        X_Index.append((index,[start,end]))
+        start=end+1
         X=X.union(X_temp)
 
-    y = X.map(lambda x: (x[0],x[1][1]))
-    X = X.map(lambda x: (x[0],x[1][0]))
-    return np.array(X.collect()).astype(np.float64), np.array(y.collect()).astype(np.float64)
+    y = X.map(lambda x: x[1][1])
+    X=X.map(lambda x: x[1][0])
+    # print("###############")
+    # print(X_Index)
+    return np.array(X.collect()).astype(np.float64), np.array(y.collect()).astype(np.float64), X_Index
 
 def data_preparation2(filenames, window_size):
     """
@@ -86,6 +92,8 @@ def data_preparation2(filenames, window_size):
     for filename in filenames:
         rdd_temp = sc.textFile(filename) \
                 .map(lambda row: row.split())
+
+        print(rdd_temp.count())
         rdd=rdd.union(rdd_temp)
 
     X_temp = rdd.map(lambda x: ((float(x[0]), float(x[1])), ([float(x[2]), float(x[3]),float(x[4])
@@ -103,8 +111,6 @@ def data_preparation2(filenames, window_size):
                 .reduceByKey(lambda x, y: addList(x, y)) \
                 .map(lambda x: mean(x[1]))
 
-    X=X.union(X_temp)
-
-    y = X.map(lambda x: x[1])
-    X = X.map(lambda x: x[0])
+    y = X_temp.map(lambda x: x[1])
+    X = X_temp.map(lambda x: x[0])
     return np.array(X.collect()).astype(np.float64), np.array(y.collect()).astype(np.float64)
