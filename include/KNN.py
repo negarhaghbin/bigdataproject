@@ -2,15 +2,16 @@ from sklearn.neighbors import KNeighborsClassifier
 #from include.LeaveOneOutCV import LeaveOneOutCV
 from KFoldCV import KFoldCV
 from matplotlib import pyplot as plt
+from SubjectCV import SubjectCV
 
 datafiles=[]
-for i in range(1,10):
+for i in range(1,18):
     datafiles.append("../data/subject"+str(i)+"_ideal.log")
 
 clf = KNeighborsClassifier(n_neighbors=3)
 #LeaveOneOutCV(datafiles,clf)
-scoreList=KFoldCV(datafiles,clf)
-# scoreList=SubjectCV(datafiles,clf)
+# scoreList=KFoldCV(datafiles,clf)
+scoreList=SubjectCV(datafiles,clf)
 resultScore = []
 resultWindow = []
 for i in range(0, len(scoreList)):
@@ -21,5 +22,7 @@ plt.ylim(0.2, 1)
 plt.xlabel('window sizes')
 plt.ylabel('f1-scores')
 plt.show()
+# plt.savefig('KNN-KFold')
+plt.savefig('KNN-Subject')
 
 

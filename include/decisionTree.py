@@ -2,11 +2,10 @@ from sklearn.tree import DecisionTreeClassifier
 # from include.LeaveOneOutCV import LeaveOneOutCV
 from KFoldCV import KFoldCV
 from matplotlib import pyplot as plt
-
 from SubjectCV import SubjectCV
 
 datafiles=[]
-for i in range(1,10):
+for i in range(1,18):
     datafiles.append("../data/subject"+str(i)+"_ideal.log")
 
 clf = DecisionTreeClassifier(random_state=0)
@@ -23,7 +22,8 @@ plt.ylim(0.2, 1)
 plt.xlabel('window sizes')
 plt.ylabel('f1-scores')
 plt.show()
-
+plt.savefig('DT-KFold')
+# plt.savefig('DT-Subject')
 
 # scorList=[(0.9476157038155899, 0.25), (0.9674642839556007, 0.5), (0.9700095860587095, 0.75), (0.974421440703023, 1.0), (0.9780703905507224, 1.25), (0.9817596876637495, 1.5), (0.9805509723569832, 1.75), (0.9771505420245538, 2.0), (0.9771232786979761, 2.25), (0.9834989325992106, 2.5), (0.9796457196902688, 2.75), (0.9831108516964286, 3.0), (0.9808368003715104, 3.25), (0.9817631769299455, 3.5), (0.981483004645136, 3.75), (0.9829826105312307, 4.0), (0.9837724945862277, 4.25), (0.9814969460036436, 4.5), (0.9839565369641079, 4.75), (0.985607416454599, 5.0), (0.9836442663881806, 5.25), (0.9836264185286773, 5.5), (0.9836289167796426, 5.75), (0.9828646908774019, 6.0), (0.9838199904576455, 6.25), (0.9797666381715958, 6.5), (0.9829712305833361, 6.75), (0.9831905571509532, 7.0)]
 # resultScore=[]

@@ -8,8 +8,8 @@ from dataPrepration import data_preparation
 def subject_cv(X_index):
     i = 0
     while i < len(X_index):
-        trainIndex = np.arange(X_index[i][1][0],X_index[i][1][1]+1, dtype=int)
-        testIndex = np.concatenate((np.arange(0,X_index[i][1][0], dtype=int),np.arange(X_index[i][1][1]+1,X_index[len(X_index)-1][1][1]+1, dtype=int)),axis=None)
+        testIndex = np.arange(X_index[i][1][0],X_index[i][1][1]+1, dtype=int)
+        trainIndex = np.concatenate((np.arange(0,X_index[i][1][0], dtype=int),np.arange(X_index[i][1][1]+1,X_index[len(X_index)-1][1][1]+1, dtype=int)),axis=None)
         # print(trainIndex)
         # print(testIndex)
         yield trainIndex, testIndex
