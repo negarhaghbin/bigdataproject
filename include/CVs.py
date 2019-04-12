@@ -1,16 +1,13 @@
-from include.dataPrepration import data_preparation
 from sklearn.model_selection import cross_val_score
 import numpy as np
 
 
-def KFoldCV(datafiles,alg):
+def KFoldCV(windows_data,alg):
     scoreList=[]
-    for i in np.arange(0.25, 7.25, 0.25):
-        X,y, X_index= data_preparation(datafiles,i)
-        # X, y = data_preparation2(datafiles, i)
+    for window_data in windows_data:
         # for 10-fold
-        score = cross_val_score(alg, X, y, cv=10, scoring='f1_micro')
-        scoreList.append((score.mean(),i))
+        score = cross_val_score(alg, windows_data[window_data][0], windows_data[window_data][1], cv=10, scoring='f1_micro')
+        scoreList.append((score.mean(),window_data))
     print(scoreList)
     return scoreList
 
@@ -24,12 +21,11 @@ def subject_cv(X_index):
         yield trainIndex, testIndex
         i += 1
 
-def SubjectCV(datafiles,alg):
+def SubjectCV(windows_data,alg):
     scoreList=[]
-    for i in np.arange(0.25, 7.25, 0.25):
-        X,y,X_index= data_preparation(datafiles,i)
-        custom_cv = subject_cv(X_index)
-        score = cross_val_score(alg, X, y, cv=custom_cv, scoring='f1_micro')
-        scoreList.append((score.mean(), i))
+    for window_data in windows_data:
+        custom_cv = subject_cv(windows_data[window_data][2])
+        score = cross_val_score(alg, windows_data[window_data][0], windows_data[window_data][1], cv=custom_cv, scoring='f1_micro')
+        scoreList.append((score.mean(), window_data))
     print(scoreList)
     return scoreList

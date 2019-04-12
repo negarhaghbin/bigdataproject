@@ -1,6 +1,7 @@
 from pyspark.sql import SparkSession
 import numpy as np
 from collections import Counter
+import json
 
 timestamp = 0.02
 
@@ -13,7 +14,6 @@ def init_spark():
         .config("spark.some.config.option", "some-value") \
         .getOrCreate()
     return spark
-
 
 def addList(x, y):
     result = []
@@ -41,11 +41,11 @@ def mean(x):
     return returnVal
 
 
-# (window_size,list of(list of(windows)))
 def data_preparation(filenames, window_size):
     """
     in this function we only select timestamp, 9 sensors' acceleration and label columns and window them.
     """
+    # data={}
     sc = init_spark().sparkContext
     X=sc.parallelize([])
     data_count = int(window_size / timestamp)
@@ -75,10 +75,16 @@ def data_preparation(filenames, window_size):
 
     y = X.map(lambda x: x[1][1])
     X=X.map(lambda x: x[1][0])
+
+    # data['X']=X.collect()
+    # data['y']=y.collect()
+    # data['X_Index']=X_Index
+    #
+    # json.dump(data, open("./windowed_data" + str(window_size), 'w'))
     # print("###############")
     # print(X_Index)
+    # return np.array(data['X']).astype(np.float64), np.array(data['y']).astype(np.float64), X_Index
     return np.array(X.collect()).astype(np.float64), np.array(y.collect()).astype(np.float64), X_Index
-
 
 
 # def data_preparation2(filenames, window_size):
