@@ -1,0 +1,141 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{banos}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BO}{%
+         family={Baños},
+         familyi={B\bibinitperiod},
+         given={Oresti},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=GJM}{%
+         family={Galvez},
+         familyi={G\bibinitperiod},
+         given={Juan-Manuel},
+         giveni={J\bibinitperiod-M\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Damas},
+         familyi={D\bibinitperiod},
+         given={Miguel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PH}{%
+         family={Pomares},
+         familyi={P\bibinitperiod},
+         given={Hector},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=RI}{%
+         family={Rojas},
+         familyi={R\bibinitperiod},
+         given={Ignacio},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BOGJMDM+1}
+    \strng{fullhash}{BOGJMDMPHRI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{6474–6499}
+    \field{title}{Window Size Impact in Human Activity Recognition}
+    \field{journaltitle}{Sensors (Basel)}
+    \field{year}{2014}
+  \endentry
+
+  \entry{dehghani}{unpublished}{}
+    \name{author}{3}{}{%
+      {{hash=DA}{%
+         family={Dehghani},
+         familyi={D\bibinitperiod},
+         given={Akbar},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Glatard},
+         familyi={G\bibinitperiod},
+         given={Tristan},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Shihab},
+         familyi={S\bibinitperiod},
+         given={Emad},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DAGTSE1}
+    \strng{fullhash}{DAGTSE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Available at: https://arxiv.org/abs/1904.02666}
+    \field{title}{Subject Cross Validation in Human Activity Recognition}
+  \endentry
+
+  \entry{dataset}{article}{}
+    \name{author}{6}{}{%
+      {{hash=BO}{%
+         family={Baños},
+         familyi={B\bibinitperiod},
+         given={Oresti},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Damas},
+         familyi={D\bibinitperiod},
+         given={Miguel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PH}{%
+         family={Pomares},
+         familyi={P\bibinitperiod},
+         given={Héctor},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=RI}{%
+         family={Rojas},
+         familyi={R\bibinitperiod},
+         given={Ignacio},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=TMA}{%
+         family={Tóth},
+         familyi={T\bibinitperiod},
+         given={Máté\bibnamedelima Attila},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AO}{%
+         family={Amft},
+         familyi={A\bibinitperiod},
+         given={Oliver},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BODMPH+1}
+    \strng{fullhash}{BODMPHRITMAAO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{A benchmark dataset to evaluate sensor displacement in
+  activity recognition}
+    \field{journaltitle}{ACM}
+    \field{year}{2012}
+  \endentry
+\enddatalist
+\endinput
