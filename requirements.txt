@@ -146,7 +146,7 @@ pyparsing==2.2.0
 PyQt5==5.11.3
 PyQt5-sip==4.19.13
 PySocks==1.6.8
-pyspark==2.4.0
+pyspark==3.2.2
 pyspark-stubs==2.4.0.post1
 pytest==3.8.0
 pytest-arraydiff==0.2
